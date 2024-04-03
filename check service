@@ -1,0 +1,10 @@
+# Check if httpd service is running
+sudo systemctl is-active httpd
+
+# Start httpd service if it's not running# Check if apache2 service is running
+sudo systemctl is-active apache2
+
+# Start apache2 service if it's not running
+sudo systemctl start apache2
+
+sudo systemctl start httpd
